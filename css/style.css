@@ -388,7 +388,7 @@ p {
 
 /* Phase 2 */
 
-.RoadMapCard {
+.RoadMapCard2 {
   display: flex;
   margin-bottom: 3.75rem;
 }
@@ -426,7 +426,7 @@ p {
 
 
 
-.RoadMapCard__CircularProgressbar {
+.RoadMapCard2__CircularProgressbar2 {
   border-radius: 50%;
    border-top-left-radius: 50%;
    border-top-right-radius: 50%;
@@ -440,7 +440,7 @@ p {
 
 
 
-.RoadMapCard .CircularProgressbar {
+.RoadMapCard2 .CircularProgressbar2 {
   border-radius: 50%;
    border-top-left-radius: 50%;
    border-top-right-radius: 50%;
@@ -456,7 +456,7 @@ p {
    padding-left: 20px;
 }
 
-.CircularProgressbar {
+.CircularProgressbar2 {
  vertical-align: middle;
  width: 100%
 }
@@ -466,14 +466,14 @@ p {
   stroke-dashoffset: 0px;
 }
 
-.RoadMapCard .CircularProgressbar-trail {
+.RoadMapCard2 .CircularProgressbar-trail2 {
   fill: #fff;
   stroke: #fff!important;
   stroke-width: 4px;
   color: #fff
 }
 
-.CircularProgressbar .CircularProgressbar-trail {
+.CircularProgressbar2 .CircularProgressbar-trail2 {
 }
 
 .element.style {
@@ -483,26 +483,26 @@ p {
   stroke-dashoffset: 0px;
 }
 
-.RoadMapCard .CircularProgressbar-path {
+.RoadMapCard2 .CircularProgressbar-path2 {
   stroke: #29ffed!important;
   stroke-width: 6px;
   -webkit-filter: drop-shadow(0 0 6px #29ffed);
 }
 
-.CircularProgressbar .CircularProgressbar-path {
+.CircularProgressbar2 .CircularProgressbar-path2 {
   transition: stroke-dashoffset .5s ease 0s;
    transition-property: stroke-dashoffset;
    transition-timing-function: ease;
    transition-delay: 0s;
 }
 
-.RoadMapCard .CircularProgressbar-text {
+.RoadMapCard2 .CircularProgressbar-text2 {
   font-size: 2rem;
 }
 
 
 
-.CircularProgressbar .CircularProgressbar-text {
+.CircularProgressbar2 .CircularProgressbar-text2 {
   dominant-baseline: middle;
   text-anchor: middle;
 }
@@ -516,7 +516,7 @@ text {
   white-space: nowrap;
 }
 
-.RoadMapCard h3 {
+.RoadMapCard2 h3 {
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 32px;
@@ -531,7 +531,7 @@ h3 {
   margin-inline-end: 0px;
 }
 
-.RoadMapCard p {
+.RoadMapCard2 p {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2.5rem;
