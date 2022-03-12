@@ -127,7 +127,7 @@ div {
 
 .Title {
   font-family: var(--font-primary);
-  font-size: 1.625rem;
+  font-size: 2.625rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -196,7 +196,7 @@ p {
 
 .Title {
   font-family: var(--font-primary);
-  font-size: 1.625rem;
+  font-size: 2.625rem;
   text-align: center;
   text-transform: uppercase;
 }
