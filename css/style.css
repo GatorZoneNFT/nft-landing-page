@@ -58,6 +58,117 @@ header .container {
   align-items: center;
 }
 
+/* About */
+
+.About {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-bottom: 0px;
+   margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+div {
+  display: block;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
+
+.fjc {
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.Title {
+  font-family: var(--font-primary);
+  font-size: 1.625rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Title h2 {
+  letter-spacing: 4px;
+}
+
+.word-wrapper {
+  white-space: nowrap;
+}
+
+.element.style {
+  display: inline-block;
+  colour: rgb(255, 255, 255);
+  transform: translateY(0%) translateX(0px);
+}
+
+.About p {
+  margin-top: 2rem;
+  transform: none;
+}
+
+.section__p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.section__p :last-child {
+  margin-bottom: unset;
+}
+
 /* RoadMapCard */
 
 .RoadMap {
