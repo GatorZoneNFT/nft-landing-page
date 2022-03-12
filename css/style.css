@@ -308,6 +308,7 @@ h1 {
 }
 .element.style {
   stroke-linecap: round;
+  transition-duration: 0.5s;
   stroke-dasharray: 289.02652413026095px 289.02652413026095px;
   stroke-dashoffset: 0px;
 }
@@ -383,6 +384,9 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px; 
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
 }
 
 /* BUTTONS */
