@@ -28,6 +28,8 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .container {
@@ -144,6 +146,11 @@ header .container {
   stroke: #fff!important;
   stroke-width: 4px;
   color: #fff
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+  stroke-linecap: round;
 }
 
 .RoadMapCard .CircularProgressbar-path {
