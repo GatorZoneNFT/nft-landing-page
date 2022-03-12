@@ -386,10 +386,9 @@ p {
   margin-inline-end: 0px; 
 }
 
-.RoadMap {
-  overflow: hidden;
-   overflow-x: hidden;
-   overflow-y: hidden;
+.RoadMapCard {
+  display: flex;
+  margin-bottom: 3.75rem;
 }
 
 * {
@@ -424,68 +423,6 @@ p {
 }
 
 
-.container {
-  height: 100%;
-  margin: 0 auto;
-   margin-top: 0px;
-   margin-right: auto;
-   margin-bottom: 0px;
-   margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  position: relative;
-  width: 100%;
-}
-
-.RoadMap .Title {
-  text-align: left;
-}
-
-.Title {
-  font-family: var(--font-primary);
-  font-size: 2.625rem;
-  text-transform: uppercase;
-}
-
-.Title h2 {
-  letter-spacing: 4px;
-}
-
-:-webkit-any(article, aside, nav, section) h1 {
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-}
-
-h1 {
-  display: block;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-.element.style {
-  overflow: hidden;
-   overflow-x: hidden;
-   overflow-y: hidden;
-  display: inline-block;
-}
-
-.word-wrapper {
-  white-space: nowrap;
-}
-
-
-
-.RoadMap__content {
-  margin-top: 3rem;
-}
-
-
-
-.RoadMapCard {
-  display: flex;
-  margin-bottom: 3.75rem;
-}
 
 .RoadMapCard__CircularProgressbar {
   border-radius: 50%;
@@ -523,7 +460,6 @@ h1 {
 }
 .element.style {
   stroke-linecap: round;
-  transition-duration: 0.5s;
   stroke-dasharray: 289.02652413026095px 289.02652413026095px;
   stroke-dashoffset: 0px;
 }
@@ -536,8 +472,13 @@ h1 {
 }
 
 .CircularProgressbar .CircularProgressbar-trail {
-  stroke: #d6d6d6;
+}
+
+.element.style {
   stroke-linecap: round;
+  transition-duration: 0.5s;
+  stroke-dasharray: 289.02652413026095px 289.02652413026095px;
+  stroke-dashoffset: 0px;
 }
 
 .RoadMapCard .CircularProgressbar-path {
@@ -557,6 +498,13 @@ h1 {
   font-size: 2rem;
 }
 
+
+
+.CircularProgressbar .CircularProgressbar-text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
 :not(svg) {
   transform-origin: 0px 0px;
 }
@@ -564,11 +512,6 @@ h1 {
 text {
   display: block;
   white-space: nowrap;
-}
-
-.CircularProgressbar .CircularProgressbar-text {
-  dominant-baseline: middle;
-  text-anchor: middle;
 }
 
 .RoadMapCard h3 {
