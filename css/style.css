@@ -143,7 +143,7 @@ header .container {
   fill: #fff;
   stroke: #fff!important;
   stroke-width: 4px;
-  colour: #fff
+  color: #fff
 }
 
 .RoadMapCard .CircularProgressbar-path {
@@ -163,6 +163,11 @@ header .container {
 
 .RoadMapCard .CircularProgressbar-text {
   font-size: 2rem;
+}
+
+text {
+  display: block;
+  white-space: nowrap;
 }
 
 .CircularProgressbar .CircularProgressbar-text {
