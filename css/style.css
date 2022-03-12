@@ -84,6 +84,7 @@ header .container {
 }
 
 .Title {
+  font-family: var(--font-primary);
   font-size: 1.625rem;
   text-align: center;
   text-transform: uppercase;
@@ -107,6 +108,13 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+
+.element.style {
+  overflow: hidden;
+   overflow-x: hidden;
+   overflow-y: hidden;
+  display: inline-block;
 }
 
 .word-wrapper {
