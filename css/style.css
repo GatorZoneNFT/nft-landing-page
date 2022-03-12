@@ -165,6 +165,10 @@ header .container {
   font-size: 2rem;
 }
 
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
 text {
   display: block;
   white-space: nowrap;
