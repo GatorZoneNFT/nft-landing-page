@@ -176,6 +176,8 @@ header .container {
 
 .CircularProgressbar .CircularProgressbar-text {
   fill: #3e98c7
+  dominant-baseline: middle
+  text-anchor: middle;
 }
 
 .RoadMapCard h3 {
