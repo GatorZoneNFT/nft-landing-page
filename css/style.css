@@ -99,7 +99,16 @@ header .container {
   margin-bottom: 3.75rem;
 }
 
-
+.RoadMapCard__CircularProgressbar {
+  border-radius: 50%;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+  margin-right: 2rem;
+  min-width: 148px;
+  width: 148px;   
+}
 
 
 
@@ -118,8 +127,36 @@ header .container {
    padding-right: 20px;
    padding-bottom: 20px;
    padding-left: 20px;
+}
 
+.CircularProgressbar {
+ vertical-align: middle;
+ width: 100%
+}
+.element.style {
+  stroke-linecap: round;
+  stroke-dasharray: 289.02652413026095px 289.02652413026095px;
+  stroke-dashoffset: 0px;
+}
 
+.RoadMapCard .CircularProgressbar-trail {
+  fill: #fff;
+  stroke: #fff!important;
+  stroke-width: 4px;
+  colour: #fff
+}
+
+.RoadMapCard .CircularProgressbar-path {
+  stroke: #29ffed!important;
+  stroke-width: 6px;
+  -webkit-filter: drop-shadow(0 0 6px #29ffed);
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  transition: stroke-dashoffset .5s ease 0s;
+   transition-property: stroke-dashoffset;
+   transition-timing-function: ease;
+   transition-delay: 0s;
 }
 
 /* BUTTONS */
