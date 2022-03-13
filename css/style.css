@@ -268,11 +268,11 @@ h1 {
 }
 
 .RoadMapCard__CircularProgressbar {
-  border-radius: 50%;
-   border-top-left-radius: 50%;
-   border-top-right-radius: 50%;
-   border-bottom-right-radius: 50%;
-   border-bottom-left-radius: 50%;
+  border-radius: 25%;
+   border-top-left-radius: 25%;
+   border-top-right-radius: 25%;
+   border-bottom-right-radius: 25%;
+   border-bottom-left-radius: 25%;
   margin-right: 2rem;
   min-width: 148px;
   width: 148px;   
@@ -282,11 +282,11 @@ h1 {
 
 
 .RoadMapCard .CircularProgressbar {
-  border-radius: 50%;
-   border-top-left-radius: 50%;
-   border-top-right-radius: 50%;
-   border-bottom-right-radius: 50%;
-   border-bottom-left-radius: 50%;
+  border-radius: 25%;
+   border-top-left-radius: 25%;
+   border-top-right-radius: 25%;
+   border-bottom-right-radius: 25%;
+   border-bottom-left-radius: 25%;
   overflow: visible;
    overflow-x: visible;
    overflow-y: visible;
