@@ -264,6 +264,11 @@ h1 {
   margin-top: 3rem;
 }
 
+@media (min-width: 62rem) 
+.container {
+  margin-top: 8.75rem;
+  max-width: 960px;
+}
 
 
 .RoadMapCard {
