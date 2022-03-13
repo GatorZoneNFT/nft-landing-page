@@ -325,7 +325,7 @@ h1 {
 .RoadMapCard .CircularProgressbar-path {
   stroke: #ff293b!important;
   stroke-width: 6px;
-  -webkit-filter: drop-shadow(0 0 6px #29ffed);
+  -webkit-filter: drop-shadow(0 0 6px #ff2929);
 }
 
 .CircularProgressbar .CircularProgressbar-path {
