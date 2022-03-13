@@ -346,12 +346,12 @@ div {
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #d6d6d6;
   stroke-linecap: round;
+
+[Attribute Style] {
+d: path("M 50 50 m 0 -46 a 46 46 0 1 1 0 92 a 46 46 0 1 1 0 -92");
 }
 
-path[Attributes Style] {
-  d: path("M 50 50 m 0 -46 a 46 46 0 1 1 0 92 a 46 46 0 1 1 0 -92");
-  fill-opacity: 0;
-}
+
 
 .RoadMapCard .CircularProgressbar-path {
   stroke: #ff293b!important;
