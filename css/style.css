@@ -137,6 +137,7 @@ div {
 .About p {
   margin-top: 2rem;
   transform: none;
+  text-align: center;
 }
 
 .section__p {
