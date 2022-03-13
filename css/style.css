@@ -164,7 +164,7 @@ p {
 .RoadMap__content .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 100%fit-content;
 }
 
 .RoadMap {
@@ -285,10 +285,10 @@ h1 {
 
 .RoadMapCard .CircularProgressbar {
   border-radius: 50%;
-   border-top-left-radius: 0%;
-   border-top-right-radius: 0%;
-   border-bottom-right-radius: 0%;
-   border-bottom-left-radius: 0%;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 50%;
   overflow: visible;
    overflow-x: visible;
    overflow-y: visible;
@@ -320,6 +320,11 @@ h1 {
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #d6d6d6;
   stroke-linecap: round;
+}
+
+path[Attributes Style] {
+  d: path("M 50 50 m 0 -46 a 46 46 0 1 1 0 92 a 46 46 0 1 1 0 -92");
+  fill-opacity: 0;
 }
 
 .RoadMapCard .CircularProgressbar-path {
