@@ -220,7 +220,7 @@ p {
 
 
 .RoadMap .Title {
-  text-align: left;
+  text-align: center;
 }
 
 .Title {
@@ -271,10 +271,10 @@ h1 {
 
 .RoadMapCard__CircularProgressbar {
   border-radius: 50%;
-   border-top-left-radius: 50%;
-   border-top-right-radius: 50%;
-   border-bottom-right-radius: 50%;
-   border-bottom-left-radius: 50%;
+   border-top-left-radius: 0%;
+   border-top-right-radius: 0%;
+   border-bottom-right-radius: 0%;
+   border-bottom-left-radius: 0%;
   margin-right: 2rem;
   min-width: 100px;
   width: 100px;   
@@ -285,10 +285,10 @@ h1 {
 
 .RoadMapCard .CircularProgressbar {
   border-radius: 50%;
-   border-top-left-radius: 50%;
-   border-top-right-radius: 50%;
-   border-bottom-right-radius: 50%;
-   border-bottom-left-radius: 50%;
+   border-top-left-radius: 0%;
+   border-top-right-radius: 0%;
+   border-bottom-right-radius: 0%;
+   border-bottom-left-radius: 0%;
   overflow: visible;
    overflow-x: visible;
    overflow-y: visible;
@@ -323,7 +323,7 @@ h1 {
 }
 
 .RoadMapCard .CircularProgressbar-path {
-  stroke: #29ffed!important;
+  stroke: #ff293b!important;
   stroke-width: 6px;
   -webkit-filter: drop-shadow(0 0 6px #29ffed);
 }
