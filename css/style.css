@@ -35,7 +35,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -50,6 +49,7 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 960px;
 }
 
 .menu {
@@ -202,6 +202,18 @@ p {
 }
 
 
+.container {
+  height: 100%;
+  margin: 0 auto;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-bottom: 0px;
+   margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  width: 100%;
+}
 
 
 .RoadMap .Title {
