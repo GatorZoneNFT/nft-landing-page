@@ -171,6 +171,11 @@ p {
 
 /* RoadMapCard */
 
+.RoadMap__content .container {
+  display: flex;
+  flex-direction: column;
+}
+
 .RoadMap {
   overflow: hidden;
    overflow-x: hidden;
@@ -386,165 +391,7 @@ p {
   margin-inline-end: 0px; 
 }
 
-/* Phase 2 */
 
-.RoadMapCard2 {
-  display: flex;
-  margin-bottom: 3.75rem;
-}
-
-* {
-  border: 0;
-   border-top-color: initial;
-   border-top-style: initial;
-   border-top-width: 0px;
-   border-right-color: initial;
-   border-right-style: initial;
-   border-right-width: 0px;
-   border-bottom-color: initial;
-   border-bottom-style: initial;
-   border-bottom-width: 0px;
-   border-left-color: initial;
-   border-left-style: initial;
-   border-left-width: 0px;
-   border-image-source: initial;
-   border-image-slice: initial;
-   border-image-width: initial;
-   border-image-outset: initial;
-   border-image-repeat: initial;
-  box-sizing: border-box;
-  margin: 0;
-   margin-right: 0px;
-   margin-bottom: 0px;
-   margin-left: 0px;
-  padding: 0;
-   padding-top: 0px;
-   padding-right: 0px;
-   padding-bottom: 0px;
-   padding-left: 0px;
-}
-
-
-
-.RoadMapCard2__CircularProgressbar2 {
-  border-radius: 50%;
-   border-top-left-radius: 50%;
-   border-top-right-radius: 50%;
-   border-bottom-right-radius: 50%;
-   border-bottom-left-radius: 50%;
-  margin-right: 2rem;
-  min-width: 148px;
-  width: 148px;   
-}
-
-
-
-
-.RoadMapCard2 .CircularProgressbar2 {
-  border-radius: 50%;
-   border-top-left-radius: 50%;
-   border-top-right-radius: 50%;
-   border-bottom-right-radius: 50%;
-   border-bottom-left-radius: 50%;
-  overflow: visible;
-   overflow-x: visible;
-   overflow-y: visible;
-  padding: 20px;
-   padding-top: 20px;
-   padding-right: 20px;
-   padding-bottom: 20px;
-   padding-left: 20px;
-}
-
-.CircularProgressbar2 {
- vertical-align: middle;
- width: 100%
-}
-.element.style {
-  stroke-linecap: round;
-  stroke-dasharray: 289.02652413026095px 289.02652413026095px;
-  stroke-dashoffset: 0px;
-}
-
-.RoadMapCard2 .CircularProgressbar-trail2 {
-  fill: #fff;
-  stroke: #fff!important;
-  stroke-width: 4px;
-  color: #fff
-}
-
-.CircularProgressbar2 .CircularProgressbar-trail2 {
-}
-
-.element.style {
-  stroke-linecap: round;
-  transition-duration: 0.5s;
-  stroke-dasharray: 289.02652413026095px 289.02652413026095px;
-  stroke-dashoffset: 0px;
-}
-
-.RoadMapCard2 .CircularProgressbar-path2 {
-  stroke: #29ffed!important;
-  stroke-width: 6px;
-  -webkit-filter: drop-shadow(0 0 6px #29ffed);
-}
-
-.CircularProgressbar2 .CircularProgressbar-path2 {
-  transition: stroke-dashoffset .5s ease 0s;
-   transition-property: stroke-dashoffset;
-   transition-timing-function: ease;
-   transition-delay: 0s;
-}
-
-.RoadMapCard2 .CircularProgressbar-text2 {
-  font-size: 2rem;
-}
-
-
-
-.CircularProgressbar2 .CircularProgressbar-text2 {
-  dominant-baseline: middle;
-  text-anchor: middle;
-}
-
-:not(svg) {
-  transform-origin: 0px 0px;
-}
-
-text {
-  display: block;
-  white-space: nowrap;
-}
-
-.RoadMapCard2 h3 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 32px;
-  margin-bottom: 1.5rem;
-}
-
-h3 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-.RoadMapCard2 p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 2.5rem;
-  text-transform: uppercase;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px; 
-}
 
 /* BUTTONS */
 
