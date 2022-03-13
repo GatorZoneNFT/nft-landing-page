@@ -65,6 +65,9 @@ header .container {
   flex-direction: column;
 }
 
+.About .container {
+  max-width: 960px;
+}
 
 * {
   border: 0;
@@ -164,7 +167,7 @@ p {
 .RoadMap__content .container {
   display: flex;
   flex-direction: column;
-  max-width: 100%fit-content;
+  max-width: 960px;
 }
 
 .RoadMap {
