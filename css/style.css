@@ -274,8 +274,8 @@ h1 {
    border-bottom-right-radius: 25%;
    border-bottom-left-radius: 25%;
   margin-right: 2rem;
-  min-width: 148px;
-  width: 148px;   
+  min-width: 100px;
+  width: 100px;   
 }
 
 
@@ -290,11 +290,11 @@ h1 {
   overflow: visible;
    overflow-x: visible;
    overflow-y: visible;
-  padding: 20px;
-   padding-top: 20px;
-   padding-right: 20px;
-   padding-bottom: 20px;
-   padding-left: 20px;
+  padding: 10px;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
 }
 
 .CircularProgressbar {
