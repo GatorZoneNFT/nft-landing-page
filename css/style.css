@@ -918,7 +918,7 @@ section {
   color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   padding: 1rem;
   display: inline-block;
   width: 100%;
@@ -928,7 +928,7 @@ section {
 }
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-size: 1.1rem;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
@@ -949,7 +949,7 @@ section {
 
 .countdown p {
   font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   margin-bottom: 2rem;
   text-align: center;
 }
