@@ -67,6 +67,7 @@ header .container {
 
 .About .container {
   max-width: 800px;
+  transition: ease-in;
 }
 
 * {
@@ -133,7 +134,7 @@ div {
 
 .element.style {
   display: inline-block;
-  colour: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   transform: translateY(0%) translateX(0px);
 }
 
