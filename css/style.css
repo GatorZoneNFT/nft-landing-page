@@ -480,9 +480,9 @@ stroke-dashoffset: 144.513px;
 }
 
 .RoadMapCard .CircularProgressbar-path {
-  stroke: #ff293b!important;
+  stroke: #61d700!important;
   stroke-width: 6px;
-  -webkit-filter: drop-shadow(0 0 6px #ff2929);
+  -webkit-filter: drop-shadow(0 0 6px #61d700);
 }
 
 .CircularProgressbar .CircularProgressbar-path {
