@@ -862,7 +862,7 @@ div {
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
