@@ -58,78 +58,7 @@ header .container {
   align-items: center;
 }
 
-/* Banner */
 
-.element.style {
-  opacity: 1;
-  transform: none;
-}
-
-.Banner {
-  background-image: url(/images/header/Untitleddesign.png);
-  background-position: bottom;
-   background-position-x: center;
-   background-position-y: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: calc(100vh - 5rem);
-  width: 100%;
-}
-
-* {
-  border: 0;
-   border-top-color: initial;
-   border-top-style: initial;
-   border-top-width: 0px;
-   border-right-color: initial;
-   border-right-style: initial;
-   border-right-width: 0px;
-   border-bottom-color: initial;
-   border-bottom-style: initial;
-   border-bottom-width: 0px;
-   border-left-color: initial;
-   border-left-style: initial;
-   border-left-width: 0px;
-   border-image-source: initial;
-   border-image-slice: initial;
-   border-image-width: initial;
-   border-image-outset: initial;
-   border-image-repeat: initial;
-  box-sizing: border-box;
-  margin: 0;
-   margin-right: 0px;
-   margin-bottom: 0px;
-   margin-left: 0px;
-  padding: 0;
-   padding-top: 0px;
-   padding-right: 0px;
-   padding-bottom: 0px;
-   padding-left: 0px;
-}
-
-@media (min-width: 36rem) .Banner__content {
-  padding-top: 6.25rem
-}
-
-.Banner__content { 
-  display: flex;
-  flex-direction: column;
-  font-size: 3rem;
-  justify-content: center;
-  margin: 0 auto;
-   margin-top: 0px;
-   margin-right: auto;
-   margin-bottom: 0px;
-   margin-left: auto;
-  max-width: 60rem;
-  padding-left: 1rem;
-  padding-left: 1rem;
-  padding-top: 6.25rem;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-}
 
 
 /* About */
