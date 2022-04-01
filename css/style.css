@@ -174,6 +174,7 @@ p {
   overflow: hidden;
    overflow-x: hidden;
    overflow-y: hidden;
+  position: relative;
 }
 
 * {
@@ -205,6 +206,10 @@ p {
    padding-right: 0px;
    padding-bottom: 0px;
    padding-left: 0px;
+}
+
+div {
+display: block;
 }
 
 
@@ -264,7 +269,40 @@ h1 {
   margin-top: 3rem;
 }
 
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
 
+div {
+  display: block;
+}
 
 .RoadMapCard {
   display: flex;
@@ -278,11 +316,44 @@ h1 {
    border-bottom-right-radius: 0%;
    border-bottom-left-radius: 0%;
   margin-right: 2rem;
-  min-width: 100px;
-  width: 100px;   
+  min-width: 148px;
+  width: 148px;   
 }
 
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
 
+div {
+  display: block;
+}
 
 
 .RoadMapCard .CircularProgressbar {
@@ -305,6 +376,42 @@ h1 {
  vertical-align: middle;
  width: 100%
 }
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
 .element.style {
   stroke-linecap: round;
   transition-duration: 0.5s;
@@ -324,9 +431,51 @@ h1 {
   stroke-linecap: round;
 }
 
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
 path[Attributes Style] {
   d: path("M 50 50 m 0 -46 a 46 46 0 1 1 0 92 a 46 46 0 1 1 0 -92");
   fill-opacity: 0;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
+element.style {
+stroke-linecap: round;
+transition-duration: 0.5s;
+stroke-dasharray: 289.027px, 289.027px;
+stroke-dashoffset: 144.513px;
 }
 
 .RoadMapCard .CircularProgressbar-path {
@@ -342,8 +491,85 @@ path[Attributes Style] {
    transition-delay: 0s;
 }
 
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+path[Attributes style] {
+  d: path("M 50 50 m 0 -46 a 46 46 0 1 1 0 92 a 46 46 0 1 1 0 -92");
+  stroke-width: 8;
+  fill-opacity: 0;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
 .RoadMapCard .CircularProgressbar-text {
   font-size: 2rem;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
 }
 
 :not(svg) {
@@ -355,9 +581,148 @@ text {
   white-space: nowrap;
 }
 
+.RoadMapCard .CircularProgressbar {
+  border-radius: 50%;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+  overflow: visible;
+   overflow-x: visible;
+   overflow-y: visible;
+  padding: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+}
+
+.CircularProgressbar {
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
 .CircularProgressbar .CircularProgressbar-text {
   dominant-baseline: middle;
   text-anchor: middle;
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+div {
+  display: block;
+}
+
+.RoadMapCard__CircularProgressbar {
+  border-radius: 50%;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+  margin-right: 2rem;
+  min-width: 148px;
+  width: 148px;
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+div {
+  display: block;
 }
 
 .RoadMapCard h3 {
@@ -365,6 +730,37 @@ text {
   font-weight: 800;
   line-height: 32px;
   margin-bottom: 1.5rem;
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
 }
 
 h3 {
@@ -383,12 +779,78 @@ h3 {
   text-align: left;
 }
 
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
 p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px; 
+}
+
+* {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  box-sizing: border-box;
+  margin: 0;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  padding: 0;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+div {
+  display: block;
 }
 
 
